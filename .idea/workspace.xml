@@ -2,71 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbfc174c-e145-44dd-b001-ceba0cf5c3d2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/2-plugins/_slick.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/4-modules/_input.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/4-modules/_scroller.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/6-sections/_eighth-section.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/6-sections/_eleventh-section.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/6-sections/_ninth-section.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/6-sections/_tenth-section.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/scroller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/vendor/slick.min.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/icomoon-old/_icomoon.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/icomoon-old/icomoon.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/icomoon-old/icomoon.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/icomoon-old/icomoon.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/icomoon-old/icomoon.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/montseratt/Montserrat-Black.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/montseratt/Montserrat-BlackItalic.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/montseratt/Montserrat-Bold.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/montseratt/Montserrat-BoldItalic.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/montseratt/Montserrat-ExtraBold.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/montseratt/Montserrat-ExtraBoldItalic.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/montseratt/Montserrat-ExtraLight.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/montseratt/Montserrat-ExtraLightItalic.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/montseratt/Montserrat-Italic.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/montseratt/Montserrat-Light.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/montseratt/Montserrat-LightItalic.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/montseratt/Montserrat-Medium.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/montseratt/Montserrat-MediumItalic.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/montseratt/Montserrat-Regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/montseratt/Montserrat-SemiBold.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/montseratt/Montserrat-SemiBoldItalic.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/montseratt/Montserrat-Thin.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/montseratt/Montserrat-ThinItalic.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/main_bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/main_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/favicon.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/fonts/icomoon/icomoon.eot" afterPath="$PROJECT_DIR$/assets/fonts/icomoon/icomoon.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/fonts/icomoon/icomoon.woff" afterPath="$PROJECT_DIR$/assets/fonts/icomoon/icomoon.woff" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/2-plugins/_index.scss" afterPath="$PROJECT_DIR$/assets/css/2-plugins/_index.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/3-base/_base.scss" afterPath="$PROJECT_DIR$/assets/css/3-base/_base.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/3-base/_classes.scss" afterPath="$PROJECT_DIR$/assets/css/3-base/_classes.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/3-base/_colors.scss" afterPath="$PROJECT_DIR$/assets/css/3-base/_colors.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/3-base/_fonts.scss" afterPath="$PROJECT_DIR$/assets/css/3-base/_fonts.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/3-base/_variables.scss" afterPath="$PROJECT_DIR$/assets/css/3-base/_variables.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/4-modules/_button.scss" afterPath="$PROJECT_DIR$/assets/css/4-modules/_button.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/4-modules/_index.scss" afterPath="$PROJECT_DIR$/assets/css/4-modules/_index.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/5-layout/_containers.scss" afterPath="$PROJECT_DIR$/assets/css/5-layout/_containers.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/6-sections/_fifth-section.scss" afterPath="$PROJECT_DIR$/assets/css/6-sections/_fifth-section.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/6-sections/_first-section.scss" afterPath="$PROJECT_DIR$/assets/css/6-sections/_first-section.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/6-sections/_footer.scss" afterPath="$PROJECT_DIR$/assets/css/6-sections/_footer.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/6-sections/_fourth-section.scss" afterPath="$PROJECT_DIR$/assets/css/6-sections/_fourth-section.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/6-sections/_index.scss" afterPath="$PROJECT_DIR$/assets/css/6-sections/_index.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/6-sections/_navbar.scss" afterPath="$PROJECT_DIR$/assets/css/6-sections/_navbar.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/6-sections/_second-section.scss" afterPath="$PROJECT_DIR$/assets/css/6-sections/_second-section.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/6-sections/_seventh-section.scss" afterPath="$PROJECT_DIR$/assets/css/6-sections/_seventh-section.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/6-sections/_sixth-section.scss" afterPath="$PROJECT_DIR$/assets/css/6-sections/_sixth-section.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/6-sections/_third-section.scss" afterPath="$PROJECT_DIR$/assets/css/6-sections/_third-section.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/4-modules/_scroller.scss" afterPath="$PROJECT_DIR$/assets/css/4-modules/_scroller.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/main.css" afterPath="$PROJECT_DIR$/assets/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/fonts/icomoon/_icomoon.scss" afterPath="$PROJECT_DIR$/assets/fonts/icomoon/_icomoon.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/fonts/icomoon/icomoon.svg" afterPath="$PROJECT_DIR$/assets/fonts/icomoon/icomoon.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/fonts/icomoon/icomoon.ttf" afterPath="$PROJECT_DIR$/assets/fonts/icomoon/icomoon.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/functions.js" afterPath="$PROJECT_DIR$/assets/js/functions.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/main.js" afterPath="$PROJECT_DIR$/assets/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -146,7 +84,7 @@
         <entry file="file://$PROJECT_DIR$/assets/css/6-sections/_eighth-section.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+              <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -162,11 +100,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_scroller.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_scroller.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/css/4-modules/_scroller.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+            <state relative-caret-position="360">
+              <caret line="24" column="27" lean-forward="false" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -176,7 +114,7 @@
         <entry file="file://$PROJECT_DIR$/assets/js/functions.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="481">
-              <caret line="85" column="36" lean-forward="true" selection-start-line="85" selection-start-column="36" selection-end-line="85" selection-end-column="36" />
+              <caret line="85" column="36" lean-forward="false" selection-start-line="85" selection-start-column="36" selection-end-line="85" selection-end-column="36" />
               <folding>
                 <element signature="e#229#298#0" expanded="false" />
                 <element signature="e#378#614#0" expanded="false" />
@@ -192,7 +130,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -270,11 +208,11 @@
         <option value="$PROJECT_DIR$/assets/css/5-layout/_containers.scss" />
         <option value="$PROJECT_DIR$/assets/css/6-sections/_ninth-section.scss" />
         <option value="$PROJECT_DIR$/assets/css/6-sections/_sixth-section.scss" />
-        <option value="$PROJECT_DIR$/assets/css/4-modules/_scroller.scss" />
         <option value="$PROJECT_DIR$/assets/css/6-sections/_eighth-section.scss" />
         <option value="$PROJECT_DIR$/assets/css/6-sections/_tenth-section.scss" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/assets/js/functions.js" />
+        <option value="$PROJECT_DIR$/assets/css/4-modules/_scroller.scss" />
       </list>
     </option>
   </component>
@@ -713,16 +651,15 @@
       <workItem from="1522322229919" duration="74000" />
       <workItem from="1522323683038" duration="17265000" />
       <workItem from="1522374886121" duration="3878000" />
-      <workItem from="1522388998442" duration="15079000" />
+      <workItem from="1522388998442" duration="15226000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74700000" />
+    <option name="totallyTimeSpent" value="74847000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -730,7 +667,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2746781" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1000,8 +937,8 @@
         <state relative-caret-position="27366">
           <caret line="10931" column="8" lean-forward="false" selection-start-line="10931" selection-start-column="8" selection-end-line="10931" selection-end-column="8" />
           <folding>
-            <marker date="1522412894000" expanded="true" signature="400658:400660" ph="{...}" />
-            <marker date="1522412894000" expanded="true" signature="400658:402175" ph="{...}" />
+            <marker date="1522413068000" expanded="true" signature="400658:400660" ph="{...}" />
+            <marker date="1522413068000" expanded="true" signature="400658:402175" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1086,18 +1023,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/4-modules/_scroller.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/6-sections/_eighth-section.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+          <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
           <folding />
         </state>
       </provider>
@@ -1165,7 +1094,7 @@
     <entry file="file://$PROJECT_DIR$/assets/js/functions.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="481">
-          <caret line="85" column="36" lean-forward="true" selection-start-line="85" selection-start-column="36" selection-end-line="85" selection-end-column="36" />
+          <caret line="85" column="36" lean-forward="false" selection-start-line="85" selection-start-column="36" selection-end-line="85" selection-end-column="36" />
           <folding>
             <element signature="e#229#298#0" expanded="false" />
             <element signature="e#378#614#0" expanded="false" />
@@ -1184,6 +1113,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/4-modules/_scroller.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="27" lean-forward="false" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
           <folding />
         </state>
       </provider>

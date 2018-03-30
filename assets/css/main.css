@@ -9363,6 +9363,9 @@ h4 {
 button.slick-arrow {
   display: none !important; }
 
+.slick-slide {
+  outline: none !important; }
+
 .container {
   max-width: 1160px;
   overflow: hidden; }
