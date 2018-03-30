@@ -21,6 +21,8 @@
   }
   .main-items {
     position: relative;
+    padding: 50px 0;
+    margin: 50px 0;
   }
   .main-title {
     max-width: 900px;
@@ -28,7 +30,7 @@
     font-size: 4.8rem;
     font-weight: 600;
     @include media-breakpoint-down(sm) {
-      font-size: 2.4rem;
+      font-size: 4.4rem;
     }
   }
   .main-subtitle {

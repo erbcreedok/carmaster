@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /*!
  * Bootstrap Reboot v4.0.0 (https://getbootstrap.com)
  * Copyright 2011-2018 The Bootstrap Authors
@@ -8945,16 +8944,22 @@ html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
-.icon-logo:before {
+.icon-checkmark:before {
+  content: "\ea11"; }
+
+.icon-spinner:before {
+  content: "\e980"; }
+
+.icon-Logo:before {
   content: "\e900"; }
 
 .icon-consulting:before {
   content: "\e901"; }
 
-.icon-diagnostic:before {
+.icon-Diagnostic:before {
   content: "\e902"; }
 
-.icon-fix:before {
+.icon-Fix:before {
   content: "\e903"; }
 
 .icon-happy:before {
@@ -8969,13 +8974,13 @@ html {
 .icon-hamburger:before {
   content: "\e907"; }
 
-.icon-facebook:before {
+.icon-Facebook:before {
   content: "\e908"; }
 
-.icon-instagram:before {
+.icon-Instagram:before {
   content: "\e909"; }
 
-.icon-vk:before {
+.icon-VK:before {
   content: "\e90a"; }
 
 .icon-diagnostic-loop:before {
@@ -8993,7 +8998,7 @@ html {
 .icon-battery:before {
   content: "\e90f"; }
 
-.icon-oil:before {
+.icon-Oil:before {
   content: "\e910"; }
 
 .icon-wash:before {
@@ -9135,6 +9140,10 @@ h4 {
   font-size: 6.4rem;
   line-height: 6.4rem; }
 
+.spin-me {
+  -webkit-animation: spin-me infinite 800ms ease-in-out both;
+          animation: spin-me infinite 800ms ease-in-out both; }
+
 @-webkit-keyframes fadeout-left {
   0% {
     opacity: 1;
@@ -9215,6 +9224,22 @@ h4 {
     -webkit-transform: translateX(0px);
             transform: translateX(0px); } }
 
+@-webkit-keyframes spin-me {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
+
+@keyframes spin-me {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
+
 .btn {
   border-radius: 0;
   min-height: 45px;
@@ -9263,6 +9288,11 @@ h4 {
 .btn-secondary:focus, .btn-secondary.focus, .btn-secondary:not(:disabled):not(.disabled):active:focus, .btn-secondary:not(:disabled):not(.disabled).active:focus, .show > .btn-secondary.dropdown-toggle:focus {
   -webkit-box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.5);
   box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.5); }
+
+.btn-secondary.disabled, .btn-secondary:disabled {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d; }
 
 .slider-button-left, .slider-button-right {
   width: 40px;
@@ -9343,6 +9373,16 @@ h4 {
 .form-group {
   margin: 20px 0; }
 
+.form-group input.no-valid {
+  -webkit-box-shadow: 0 0 3px 2px rgba(255, 0, 0, 0.5);
+          box-shadow: 0 0 3px 2px rgba(255, 0, 0, 0.5); }
+
+.form-control:disabled, .form-control[readonly] {
+  background-color: #ffffff;
+  opacity: 0.5;
+  color: #ebebeb;
+  border: transparent; }
+
 .slick-dots {
   list-style-type: none;
   padding: 0;
@@ -9365,6 +9405,73 @@ button.slick-arrow {
 
 .slick-slide {
   outline: none !important; }
+
+mark.im-caret {
+  -webkit-animation: 1s blink step-end infinite !important;
+          animation: 1s blink step-end infinite !important; }
+
+mark.im-caret-select {
+  background-color: rgba(0, 0, 0, 0.25); }
+
+@-webkit-keyframes blink {
+  from, to {
+    border-right-color: black; }
+  50% {
+    border-right-color: transparent; } }
+
+@keyframes blink {
+  from, to {
+    border-right-color: black; }
+  50% {
+    border-right-color: transparent; } }
+
+span.im-static {
+  color: grey; }
+
+div.im-colormask {
+  display: inline-block;
+  border-style: inset;
+  border-width: 2px;
+  -webkit-appearance: textfield;
+     -moz-appearance: textfield;
+          appearance: textfield;
+  cursor: text; }
+
+div.im-colormask > input, div.im-colormask > input:-webkit-autofill {
+  position: absolute !important;
+  display: inline-block;
+  background-color: transparent;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  -webkit-transition: background-color 5000s ease-in-out 0s;
+  transition: background-color 5000s ease-in-out 0s;
+  caret-color: transparent;
+  -webkit-appearance: caret;
+          appearance: caret;
+  border-style: none;
+  left: 0;
+  /*calculated*/ }
+
+div.im-colormask > input:focus {
+  outline: none; }
+
+div.im-colormask > input::-moz-selection {
+  background: none; }
+
+div.im-colormask > input::selection {
+  background: none; }
+
+div.im-colormask > input::-moz-selection {
+  background: none; }
+
+div.im-colormask > input:-webkit-autofill ~ div {
+  background-color: #faffbd; }
+
+div.im-colormask > div {
+  color: black;
+  display: inline-block;
+  width: 100px;
+  /*calculated*/ }
 
 .container {
   max-width: 1160px;
@@ -9515,7 +9622,9 @@ button.slick-arrow {
   .first-section .container {
     position: relative; }
   .first-section .main-items {
-    position: relative; }
+    position: relative;
+    padding: 50px 0;
+    margin: 50px 0; }
   .first-section .main-title {
     max-width: 900px;
     margin: 0 0 10px;
@@ -9523,7 +9632,7 @@ button.slick-arrow {
     font-weight: 600; }
     @media (max-width: 767.98px) {
       .first-section .main-title {
-        font-size: 2.4rem; } }
+        font-size: 4.4rem; } }
   .first-section .main-subtitle {
     font-size: 2.4rem;
     margin: 0 0 30px; }
@@ -9787,7 +9896,10 @@ button.slick-arrow {
   position: relative; }
   .eleventh-section #map {
     width: 100%;
-    min-height: 526px; }
+    min-height: 526px;
+    pointer-events: none; }
+    .eleventh-section #map.activated {
+      pointer-events: auto; }
   .eleventh-section .leaflet-div-icon {
     border: none;
     background: none; }
@@ -9806,7 +9918,6 @@ button.slick-arrow {
     .eleventh-section .map-marker span {
       font-size: 1.6rem; }
     .eleventh-section .map-marker:before {
-      content: '▼';
       display: block;
       position: absolute;
       bottom: -33px;
@@ -9822,6 +9933,7 @@ button.slick-arrow {
               transform: scaleY(1.4) scaleX(1);
       text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.07); }
     .eleventh-section .map-marker:after {
+      content: '';
       display: block;
       position: absolute;
       bottom: -33px;

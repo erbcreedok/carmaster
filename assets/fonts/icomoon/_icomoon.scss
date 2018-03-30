@@ -1,4 +1,3 @@
-
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
@@ -14,16 +13,22 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-logo:before {
+.icon-checkmark:before {
+  content: "\ea11";
+}
+.icon-spinner:before {
+  content: "\e980";
+}
+.icon-Logo:before {
   content: "\e900";
 }
 .icon-consulting:before {
   content: "\e901";
 }
-.icon-diagnostic:before {
+.icon-Diagnostic:before {
   content: "\e902";
 }
-.icon-fix:before {
+.icon-Fix:before {
   content: "\e903";
 }
 .icon-happy:before {
@@ -38,13 +43,13 @@
 .icon-hamburger:before {
   content: "\e907";
 }
-.icon-facebook:before {
+.icon-Facebook:before {
   content: "\e908";
 }
-.icon-instagram:before {
+.icon-Instagram:before {
   content: "\e909";
 }
-.icon-vk:before {
+.icon-VK:before {
   content: "\e90a";
 }
 .icon-diagnostic-loop:before {
@@ -62,7 +67,7 @@
 .icon-battery:before {
   content: "\e90f";
 }
-.icon-oil:before {
+.icon-Oil:before {
   content: "\e910";
 }
 .icon-wash:before {

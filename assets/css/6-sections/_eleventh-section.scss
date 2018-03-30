@@ -4,6 +4,10 @@
   #map {
     width: 100%;
     min-height: 526px;
+    pointer-events: none;
+    &.activated {
+      pointer-events: auto;
+    }
   }
   .leaflet-div-icon {
     border: none;
@@ -25,7 +29,7 @@
     position: relative;
     box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.07);
     &:before {
-      content: '▼';
+      //content: '▼';
       display: block;
       position: absolute;
       bottom: -33px;
@@ -41,7 +45,7 @@
       text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.07);
     }
     &:after {
-      //content: '';
+      content: '';
       display: block;
       position: absolute;
       bottom: -33px;

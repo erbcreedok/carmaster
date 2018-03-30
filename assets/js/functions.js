@@ -119,4 +119,45 @@ $( document ).ready(function() {
             }
         }]
     });
+
+    $('input[name="phone"]').inputmask("+9 (999) 999 99 99");
+
+    $('.callbackForm').submit(function(e) {
+        e.preventDefault();
+        var nameElement = this.elements.name;
+        var phoneElement = this.elements.phone;
+        var name = nameElement.value.trim();
+        var phone = phoneElement.value.trim();
+        var valid = true;
+        if (name === '') {
+            nameElement.classList.add('no-valid');
+            valid = false;
+        } else {
+            nameElement.classList.remove('no-valid');
+        }
+        if (phone.indexOf('_') !== -1) {
+            phoneElement.classList.add('no-valid');
+            valid = false;
+        } else {
+            phoneElement.classList.remove('no-valid');
+        }
+        if (!valid) return;
+
+        sendMessage(this, name, phone);
+
+    });
+
+    var sendMessage = function(form, name, phone) {
+        var message = '💡Новая заявка от ' + name;
+        message += '\n    <i> Телефон: </i> ' + phone;
+        message = encodeURIComponent(message);
+        var src = 'https://api.telegram.org/bot' + Globals.botApi + '/sendMessage?chat_id=' + Globals.chatId + '&parse_mode=html&text=' + message;
+        $('.ajax-status').html('Отправляем <span class="icon-spinner spin-me" style="display: inline-block;"></span>');
+        $(form).attr('disabled', true);
+        $(form.elements).attr('disabled', true);
+        $.get(src, function() {
+            console.log('send');
+            $('.ajax-status').html('Отправлено <span class="icon-checkmark" style="display: inline-block;"></span>');
+        });
+    }
 });
