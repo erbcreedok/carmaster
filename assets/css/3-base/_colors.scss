@@ -10,15 +10,24 @@
 .color-gray {
   color: $gray-default;
 }
+.color-blue-secondary {
+  color: $blue-secondary;
+}
+.color-blue-dark {
+  color: $blue-dark;
+}
 .color-gray-secondary {
   color: $gray-secondary;
 }
 .color-whitegray {
   color: $whitegray-default;
 }
+.bg-whitegray {
+  background-color: $whitegray-default;
+}
 .color-black-default {
   color: $black-default;
 }
-.bg-whitegray {
-  background-color: $whitegray-default;
+.color-whiteblue {
+  color: $whiteblue-default;
 }

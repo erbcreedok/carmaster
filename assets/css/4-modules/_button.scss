@@ -1,25 +1,42 @@
 .btn {
-  border-radius: 20px;
-  min-height: 40px;
-  min-width: 191px;
-  font-size: 1.4rem;
+  border-radius: 0;
+  min-height: 45px;
+  min-width: 200px;
+  font-size: 1.6rem;
   &.btn-primary {
-    background: $main-color;
-    border-color: $main-color;
+    background: none;
+    border-color: $white;
+    transition: 150ms;
+  }
+  &.btn-primary-blue {
+    background: none;
+    border-color: $blue-secondary;
+    color: $blue-secondary;
+    transition: 150ms;
   }
   &.btn-secondary {
+    background: $main-color;
+    border-color: $main-color;
+    color: $white;
+  }
+  &.btn-primary:not(:disabled):hover, &.btn-primary:not(:disabled).hover {
     background: $white;
     border-color: $white;
     color: $black;
-    font-weight: 500;
   }
-  &.btn-primary:not(:disabled):not(.disabled):active, &.btn-primary:not(:disabled):not(.disabled).active, & .show > .btn-primary.dropdown-toggle {
-    background-color: $main-color - #111;
-    border-color: $main-color - #111;
+  &.btn-primary:not(:disabled):active, &.btn-primary:not(:disabled).active, & .show > .btn-primary.dropdown-toggle {
+    background-color: $main-color;
+    border-color: $main-color;
+    color: $white;
+  }
+  &.btn-primary-blue:not(:disabled):hover, &.btn-primary-blue:not(:disabled).hover {
+    background: $blue-secondary;
+    border-color: $blue-secondary;
+    color: $white;
   }
   &.btn-secondary:not(:disabled):not(.disabled):active, &.btn-secondary:not(:disabled):not(.disabled).active, & .show > .btn-secondary.dropdown-toggle {
-    background-color: $white - #040404;
-    border-color: $white - #040404;
+    background-color: $main-color - #040404;
+    border-color: $main-color - #040404;
   }
 }
 .btn:focus, .btn.focus {

@@ -1,0 +1,23 @@
+.slick-dots {
+  list-style-type: none;
+  padding: 0;
+  display: block;
+  li {
+    display: inline-block;
+    height: 6px;
+    width: 6px;
+    border-radius: 3px;
+    margin: 8px;
+    background: $lightgray-default;
+    &.slick-active {
+      background-color: $blue-secondary;
+    }
+    button {
+      display: none;
+    }
+  }
+  text-align: center;
+}
+button.slick-arrow {
+  display: none !important;
+}

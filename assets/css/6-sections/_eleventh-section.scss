@@ -1,0 +1,58 @@
+.eleventh-section {
+  min-height: 526px;
+  position: relative;
+  #map {
+    width: 100%;
+    min-height: 526px;
+  }
+  .leaflet-div-icon {
+    border: none;
+    background: none;
+  }
+  .map-marker {
+    padding: 2rem 2rem;
+    p {
+      padding-left: 20px;
+      text-indent: -20px;
+    }
+    span {
+      font-size: 1.6rem;
+    }
+    border: none;
+    background: white;
+    height: 220px;
+    margin-top: -127px;
+    position: relative;
+    box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.07);
+    &:before {
+      content: '▼';
+      display: block;
+      position: absolute;
+      bottom: -33px;
+      color: white;
+      font-size: 36px;
+      line-height: 33px;
+      right: 0;
+      left: 0;
+      width: 33px;
+      height: 33px;
+      margin: auto;
+      transform: scaleY(1.4) scaleX(1);
+      text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.07);
+    }
+    &:after {
+      //content: '';
+      display: block;
+      position: absolute;
+      bottom: -33px;
+      right: 0;
+      left: 0;
+      margin: auto;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 33px 13px 0 13px;
+      border-color: #ffffff transparent transparent transparent;
+    }
+  }
+}

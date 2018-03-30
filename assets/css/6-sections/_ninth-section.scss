@@ -1,0 +1,22 @@
+.ninth-section {
+  position: relative;
+  .form-container {
+    max-width: 380px;
+  }
+  .fluid-image {
+    display: block;
+    background: url($path-image + '/CTA.jpg') center;
+    background-size: cover;
+    position: relative;
+  }
+  @include media-breakpoint-down(sm){
+    .fluid-image {
+      order: 2;
+      min-height: 500px;
+    }
+    .semi-container {
+      order: 1;
+      margin: auto;
+    }
+  }
+}

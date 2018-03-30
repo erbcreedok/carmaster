@@ -1,7 +1,9 @@
 .container {
   max-width: 1160px;
-  padding: 0 20px;
   overflow: hidden;
+  @include media-breakpoint-down(sm) {
+    max-width: 567px;
+  }
 }
 .semi-container {
   max-width: 580px;

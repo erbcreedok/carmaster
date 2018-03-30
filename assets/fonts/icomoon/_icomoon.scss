@@ -1,3 +1,4 @@
+
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
@@ -7,53 +8,87 @@
   font-variant: normal;
   text-transform: none;
   line-height: 1;
+
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-logo-secondary:before {
-  content: "\e90d";
-}
 .icon-logo:before {
-  content: "\e90e";
-}
-.icon-arrow-right:before {
   content: "\e900";
 }
-.icon-arrow-right-small:before {
+.icon-consulting:before {
   content: "\e901";
 }
-.icon-arrow-left-small:before {
-  content: "\e90b";
-}
-.icon-arrow-left:before {
-  content: "\e90c";
-}
-.icon-clock:before {
+.icon-diagnostic:before {
   content: "\e902";
 }
-.icon-directions:before {
+.icon-fix:before {
   content: "\e903";
 }
-.icon-email:before {
+.icon-happy:before {
   content: "\e904";
 }
-.icon-facebook:before {
+.icon-marker:before {
   content: "\e905";
 }
-.icon-gmail:before {
+.icon-phone:before {
   content: "\e906";
 }
-.icon-instagram:before {
+.icon-hamburger:before {
   content: "\e907";
 }
-.icon-mission:before {
+.icon-facebook:before {
   content: "\e908";
 }
-.icon-phone:before {
+.icon-instagram:before {
   content: "\e909";
 }
-.icon-planning:before {
+.icon-vk:before {
   content: "\e90a";
+}
+.icon-diagnostic-loop:before {
+  content: "\e90b";
+}
+.icon-suspension:before {
+  content: "\e90c";
+}
+.icon-road:before {
+  content: "\e90d";
+}
+.icon-break:before {
+  content: "\e90e";
+}
+.icon-battery:before {
+  content: "\e90f";
+}
+.icon-oil:before {
+  content: "\e910";
+}
+.icon-wash:before {
+  content: "\e911";
+}
+.icon-cogs:before {
+  content: "\e912";
+}
+.icon-transmission:before {
+  content: "\e913";
+}
+.icon-engine:before {
+  content: "\e914";
+}
+.icon-tire:before {
+  content: "\e915";
+}
+.icon-shine:before {
+  content: "\e916";
+}
+.icon-safehouse:before {
+  content: "\e917";
+}
+.icon-professional:before {
+  content: "\e918";
+}
+.icon-keys:before {
+  content: "\e919";
 }

@@ -1,4 +1,6 @@
 .third-section {
+  color: $gray-default;
+  position: relative;
   .block-title {
     margin-bottom: 1rem;
   }
@@ -10,5 +12,17 @@
   }
   .block {
     margin-bottom: 3rem;
+  }
+  .fluid-image {
+    background: url($path-image + '/CTA.jpg') center;
+    min-height: 500px;
+    background-size: cover;
+    @include media-breakpoint-up(md) {
+      position: absolute;
+      min-height: 200px;
+      right: 0;
+      top: 0;
+      bottom: 0;
+    }
   }
 }

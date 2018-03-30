@@ -1,14 +1,8 @@
 .fifth-section {
   @include media-breakpoint-up(md) {
-    .bg-image {
-      -webkit-box-ordinal-group: 2;
-      -ms-flex-order: 1;
-      order: 1;
-    }
-    .bg-whitegray {
-      -webkit-box-ordinal-group: 1;
-      -ms-flex-order: 0;
-      order: 0;
+    .work-card {
+      margin: 4rem 0;
+      max-width: 250px;
     }
   }
   .slider-content {
@@ -16,5 +10,8 @@
     @include media-breakpoint-down(md) {
       min-height: 200px;
     }
+  }
+  .work-card {
+    margin: 3.5rem 0;
   }
 }

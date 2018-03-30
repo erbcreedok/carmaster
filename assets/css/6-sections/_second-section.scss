@@ -1,13 +1,57 @@
 .second-section {
-  text-align: center;
-  .container {
-    max-width:936px;
+  h2 {
+    margin-bottom: 0;
   }
   p {
-    font-size: 1.8rem;
-    font-weight: 400;
-    @include media-breakpoint-down(md) {
-      font-size: 1.4rem;
+    margin-bottom: 0;
+  }
+  .digit-container {
+    @include media-breakpoint-up(md) {
+      border-left: 1px solid $gray-secondary;
+    }
+    padding: 0 1.5rem;
+  }
+  .digit {
+    color: $main-color;
+    font-size: 4.8rem;
+    font-weight: bold;
+    line-height: 4.8rem;
+    margin: 0 1.5rem;
+    white-space: nowrap;
+  }
+  .icon {
+    color: $blue-secondary;
+  }
+  .about-card {
+    @include media-breakpoint-up(md) {
+      p {
+        max-width: 300px;
+      }
+    }
+  }
+  @include media-breakpoint-only(lg) {
+    .digit-container {
+      padding-left: 0;
+    }
+  }
+  @include media-breakpoint-only(md) {
+    .section-title {
+      flex-basis: 100%;
+    }
+    .digit-container:nth-of-type(2) {
+      border-left: none;
+      padding-left: 0;
+      .digit {
+        margin-left: 0;
+      }
+    }
+    .digit-container:nth-of-type(4) {
+      padding-right: 0;
+    }
+  }
+  @include media-breakpoint-down(sm) {
+    .section-body {
+      max-width: 280px;
     }
   }
 }
