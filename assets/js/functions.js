@@ -59,7 +59,10 @@ $( document ).ready(function() {
         slidesToShow: 3,
         slidesToScroll: 1,
         infinite: false,
-        dots: true,
+        arrows: false,
+        dots: (function(){
+            return $('.worker-cards').children().length > 3;
+        })(),
         responsive: [{
             breakpoint: 767.99,
             settings: {
@@ -75,6 +78,7 @@ $( document ).ready(function() {
         slidesToShow: 3,
         slidesToScroll: 1,
         infinite: false,
+        arrows: false,
         dots: true,
         responsive: [{
             breakpoint: 767.99,
@@ -93,6 +97,7 @@ $( document ).ready(function() {
         slidesToScroll: 1,
         infinite: false,
         dots: true,
+        arrows: false,
         responsive: [{
             breakpoint: 767.99,
             settings: {
@@ -109,6 +114,7 @@ $( document ).ready(function() {
         slidesToScroll: 1,
         infinite: false,
         dots: false,
+        arrows: false,
         responsive: [{
             breakpoint: 767.99,
             settings: {

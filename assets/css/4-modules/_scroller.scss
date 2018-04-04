@@ -1,13 +1,16 @@
 .slick-dots {
   list-style-type: none;
-  padding: 0;
+  padding: 10px 0;
   display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
   li {
     display: inline-block;
     height: 6px;
     width: 6px;
     border-radius: 3px;
-    margin: 8px;
+    margin: 10px 8px;
     background: $lightgray-default;
     &.slick-active {
       background-color: $blue-secondary;

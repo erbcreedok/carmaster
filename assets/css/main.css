@@ -8950,16 +8950,16 @@ html {
 .icon-spinner:before {
   content: "\e980"; }
 
-.icon-Logo:before {
+.icon-logo:before {
   content: "\e900"; }
 
 .icon-consulting:before {
   content: "\e901"; }
 
-.icon-Diagnostic:before {
+.icon-diagnostic:before {
   content: "\e902"; }
 
-.icon-Fix:before {
+.icon-fix:before {
   content: "\e903"; }
 
 .icon-happy:before {
@@ -8974,13 +8974,13 @@ html {
 .icon-hamburger:before {
   content: "\e907"; }
 
-.icon-Facebook:before {
+.icon-facebook:before {
   content: "\e908"; }
 
-.icon-Instagram:before {
+.icon-instagram:before {
   content: "\e909"; }
 
-.icon-VK:before {
+.icon-vk:before {
   content: "\e90a"; }
 
 .icon-diagnostic-loop:before {
@@ -8998,7 +8998,7 @@ html {
 .icon-battery:before {
   content: "\e90f"; }
 
-.icon-Oil:before {
+.icon-oil:before {
   content: "\e910"; }
 
 .icon-wash:before {
@@ -9057,7 +9057,8 @@ h2 {
 h3 {
   font-size: 2rem;
   font-weight: 800;
-  color: inherit; }
+  color: inherit;
+  margin-bottom: 15px; }
 
 h4 {
   font-size: 1.8rem;
@@ -9100,13 +9101,25 @@ h4 {
 .text-uppercase {
   text-transform: uppercase; }
 
+.pad-bottom-9 {
+  padding-bottom: 90px; }
+
+.pad-bottom-5 {
+  padding-bottom: 50px; }
+
+.pad-bottom-7 {
+  padding-bottom: 70px; }
+
+.pad-top-12 {
+  padding-top: 120px; }
+
 .pad-this-y {
   padding-top: 50px;
   padding-bottom: 50px; }
 
 .pad-this-2y {
-  padding-top: 100px;
-  padding-bottom: 100px; }
+  padding-top: 120px;
+  padding-bottom: 120px; }
 
 .font-bigger {
   font-size: 1.6rem; }
@@ -9134,7 +9147,7 @@ h4 {
   height: 3px;
   width: 52px;
   background: #29509f;
-  margin-bottom: 20px; }
+  margin-bottom: 25px; }
 
 .icon {
   font-size: 6.4rem;
@@ -9371,7 +9384,7 @@ h4 {
   border-radius: 0; }
 
 .form-group {
-  margin: 20px 0; }
+  margin: 20px 0 25px; }
 
 .form-group input.no-valid {
   -webkit-box-shadow: 0 0 3px 2px rgba(255, 0, 0, 0.5);
@@ -9385,15 +9398,18 @@ h4 {
 
 .slick-dots {
   list-style-type: none;
-  padding: 0;
+  padding: 10px 0;
   display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
   text-align: center; }
   .slick-dots li {
     display: inline-block;
     height: 6px;
     width: 6px;
     border-radius: 3px;
-    margin: 8px;
+    margin: 10px 8px;
     background: #bfbfbf; }
     .slick-dots li.slick-active {
       background-color: #29509f; }
@@ -9552,8 +9568,18 @@ div.im-colormask > div {
   padding-left: 20px;
   padding-right: 20px; }
 
-.main-nav {
-  font-size: 1.4rem; }
+@media (min-width: 992px) {
+  .main-nav {
+    font-size: 1.4rem;
+    margin-right: 15px; }
+    .main-nav .nav-item {
+      padding-left: 10px;
+      padding-right: 5px; }
+  .navbar .nav-item .nav-link {
+    padding-left: 5px;
+    padding-right: 5px; }
+    .navbar .nav-item .nav-link .icon-phone {
+      margin-right: 10px; } }
 
 .navbar-filled, .expanded {
   background: #ffffff;
@@ -9733,17 +9759,22 @@ div.im-colormask > div {
         top: 0;
         bottom: 0; } }
 
-@media (min-width: 768px) {
-  .fourth-section .col-md-4 {
-    max-height: 255px; } }
+.fourth-section .container {
+  overflow: visible; }
+
+.fourth-section .col-md-4 {
+  margin-bottom: 1.5rem; }
+  @media (min-width: 768px) {
+    .fourth-section .col-md-4 {
+      max-height: 255px; } }
 
 .fourth-section .service-card {
-  margin: 1.5rem -15px;
+  margin: 1.5rem -30px;
   position: relative;
   z-index: 1;
-  padding: 15px;
+  padding: 40px 30px;
   border: 1px solid transparent;
-  background: #ffffff;
+  background: transparent;
   -webkit-box-shadow: none;
           box-shadow: none;
   -webkit-transition: border 150ms, -webkit-box-shadow 150ms;
@@ -9751,15 +9782,16 @@ div.im-colormask > div {
   transition: border 150ms, box-shadow 150ms;
   transition: border 150ms, box-shadow 150ms, -webkit-box-shadow 150ms; }
   .fourth-section .service-card .icon {
-    margin-bottom: 1.5rem; }
+    margin-bottom: 3rem; }
   .fourth-section .service-card button {
     display: none; }
   @media (min-width: 768px) {
     .fourth-section .service-card {
-      max-width: 320px; }
+      max-width: 360px; }
       .fourth-section .service-card:hover, .fourth-section .service-card.hover {
         z-index: 2;
         border: 1px solid #29509f;
+        background: #ffffff;
         -webkit-box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.07);
                 box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.07); }
         .fourth-section .service-card:hover button, .fourth-section .service-card.hover button {
@@ -9777,7 +9809,7 @@ div.im-colormask > div {
       min-height: 200px; } }
 
 .fifth-section .work-card {
-  margin: 3.5rem 0; }
+  margin: 3rem 0; }
 
 .sixth-section .block-icon {
   display: inline-block;
@@ -9812,7 +9844,7 @@ div.im-colormask > div {
     overflow: hidden;
     margin-bottom: 2rem; }
     .sixth-section .worker-card .card-image img {
-      width: 100%; }
+      height: 100%; }
   .sixth-section .worker-card .card-subtitle {
     color: #999ea8;
     font-size: 1.4rem; }
@@ -9828,10 +9860,12 @@ div.im-colormask > div {
 .seventh-section .col-md-4 {
   padding-left: 20px;
   padding-right: 20px;
-  margin: 2rem 0; }
+  margin: 3rem 0; }
 
 .seventh-section .review-card {
-  padding: 30px 29px; }
+  padding: 40px 30px 20px; }
+  .seventh-section .review-card .media {
+    margin-bottom: 2rem; }
   .seventh-section .review-card .card-avatar {
     width: 50px;
     height: 50px;
@@ -9843,6 +9877,10 @@ div.im-colormask > div {
   .seventh-section .review-card .card-subtitle {
     font-size: 1.4rem;
     color: #999ea8; }
+  .seventh-section .review-card a {
+    display: block;
+    margin-top: 1.5rem;
+    text-decoration: underline; }
 
 .eighth-section .photos-container {
   margin: 0; }
@@ -9850,7 +9888,8 @@ div.im-colormask > div {
 .eighth-section .photo-card {
   background-size: cover;
   background-position: center;
-  height: 338px; }
+  height: 338px;
+  margin-bottom: 3rem; }
 
 .ninth-section {
   position: relative; }
@@ -9874,7 +9913,7 @@ div.im-colormask > div {
       margin: auto; } }
 
 .tenth-section {
-  padding: 2rem 0; }
+  padding: 3rem 0 2.5rem; }
   .tenth-section .partner {
     font-size: 2rem;
     font-family: 'PFDinTextCompPro', sans-serif;
@@ -9885,6 +9924,8 @@ div.im-colormask > div {
     white-space: nowrap;
     text-align: center;
     padding: 2rem 0.5rem; }
+    .tenth-section .partner p {
+      margin: 0; }
   @media (max-width: 767.98px) {
     .tenth-section .partners {
       overflow: scroll; }
