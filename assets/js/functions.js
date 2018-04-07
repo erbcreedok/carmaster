@@ -165,5 +165,84 @@ $( document ).ready(function() {
             console.log('send');
             $('.ajax-status').html('Отправлено <span class="icon-checkmark" style="display: inline-block;"></span>');
         });
-    }
+    };
+
+    var services = {
+        serviceList: $('.service-list'),
+        isMobile: function() { return window.innerWidth < 768; },
+        lastVisible: 0,
+        hideServices: function() {
+            if (this.isMobile()) {
+                this.lastVisible = 3;
+            } else {
+                this.lastVisible = 6;
+            }
+            this.serviceList.find('.col-md-4:nth-child(n + ' + (this.lastVisible + 1) + ')').css('display','none');
+            if (this.isAllVisible()) {
+                $('.service-load-more').css('display','none');
+            }
+        },
+        showServices: function () {
+            if (this.isMobile()) {
+                this.lastVisible += 3;
+            } else {
+                this.lastVisible += 6;
+            }
+            this.serviceList.find('.col-md-4:nth-child(-n + ' + (this.lastVisible) + ')').css('display','block');
+            if (this.isAllVisible()) {
+                $('.service-load-more').css('display','none');
+            }
+        },
+        isAllVisible: function() {
+            return this.lastVisible >= this.serviceList.children().length;
+        }
+    };
+
+    services.hideServices();
+    $('button.service-load-more').click(function() {
+        services.showServices();
+    });
+
+    $('.photos-container').magnificPopup({
+        delegate: 'a.photo-card',
+        type: 'image',
+        tLoading: 'Загрузка изображения #%curr%...',
+        gallery: {
+            enabled: true,
+            navigateByImgClick: true,
+            preload: [0, 1] // Will preload 0 - before current, and 1 after the current image
+        }
+    });
+
+    $('.review-card img').each(function() {
+        var src = $(this).attr('src');
+        var imageHref = document.createElement('a');
+        var parent = this.parentNode;
+        imageHref.setAttribute('href',src);
+        imageHref.setAttribute('target', '_blank');
+        imageHref.setAttribute('title','Фото');
+        imageHref.classList.add('image-popup-zoom', 'image-hidden');
+        imageHref.style.display = 'none';
+        imageHref.appendChild(this);
+        parent.appendChild(imageHref);
+        var showHref = document.createElement('a');
+        showHref.setAttribute('href','javascript:void(0)');
+        showHref.classList.add('image-loader');
+        showHref.innerHTML = 'Посмотреть';
+        parent.appendChild(showHref);
+    });
+    $('.image-popup-zoom').magnificPopup({
+        type: 'image',
+        zoom: {
+            enabled: true,
+            duration: 300
+        }
+    });
+    $('.image-loader').click(function () {
+        var parent = this.parentNode;
+        $(parent.getElementsByClassName('image-hidden')).each(function(index, item) {
+           item.style.display = 'block';
+        });
+        this.style.display = 'none';
+    });
 });

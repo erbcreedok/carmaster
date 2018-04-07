@@ -1,6 +1,8 @@
 .fourth-section {
   .container {
-    overflow: visible;
+    @include media-breakpoint-up(md) {
+      overflow: visible;
+    }
   }
   .col-md-4 {
     margin-bottom: 1.5rem;
