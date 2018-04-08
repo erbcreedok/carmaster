@@ -69,9 +69,9 @@
                Фиксированная цена, никаких доплат<br>
                и увеличения стоимости.
            </p>
-           <button class="btn btn-primary">
+           <a href="#about" class="btn btn-primary slide-to">
            <span>Узнать больше</span>
-       </button>
+       </a>
          </div>
          <ul class="social-links">
              <li>
@@ -92,7 +92,7 @@
          </ul>
      </div>
     </section>
-    <section data-waypoint="main" class="second-section">
+    <section id="about" data-waypoint="main" class="second-section">
         <div class="container pad-this-y">
             <div class="d-flex justify-content-between flex-wrap flex-lg-nowrap section-body">
                 <div class="section-title my-5 ml-3 ml-md-0">
@@ -193,7 +193,7 @@
                                 Оставьте заявку и запишитесь<br/>
                                 на бесплатную диагностику к специалисту
                             </p>
-                            <button class="btn btn-secondary">
+                            <button class="btn btn-secondary" data-toggle="modal" data-target="#callbackModal">
                                 <span>Оставить заявку</span>
                             </button>
                         </div>
@@ -229,7 +229,7 @@
                         <p class="mb-5">
                             Комплексная диагностика, АКПП, кондиционеров, подвески, тормозной системы.
                         </p>
-                        <button class="btn btn-secondary w-100">
+                        <button data-toggle="modal" data-target="#callbackForm" class="btn btn-secondary w-100">
                             <span>Записаться на прием</span>
                         </button>
                     </div>
@@ -247,7 +247,7 @@
                         <p class="mb-5">
                             Замена сайлетблока, ступичного подшипника, насоса ГУР, переднего рычага, ступицы в сборе.
                         </p>
-                        <button class="btn btn-secondary w-100">
+                        <button data-toggle="modal" data-target="#callbackModal" class="btn btn-secondary w-100">
                             <span>Записаться на прием</span>
                         </button>
                     </div>
@@ -265,7 +265,7 @@
                         <p class="mb-5">
                             Замена бокового, заднего, лобового  стекла, ксеноновых ламп. Бронирование и полирофка фар.
                         </p>
-                        <button class="btn btn-secondary w-100">
+                        <button data-toggle="modal" data-target="#callbackModal" class="btn btn-secondary w-100">
                             <span>Записаться на прием</span>
                         </button>
                     </div>
@@ -283,7 +283,7 @@
                         <p class="mb-5">
                             Комплексная диагностика, АКПП, кондиционеров, подвески, тормозной системы.
                         </p>
-                        <button class="btn btn-secondary w-100">
+                        <button data-toggle="modal" data-target="#callbackModal" class="btn btn-secondary w-100">
                             <span>Записаться на прием</span>
                         </button>
                     </div>
@@ -301,7 +301,7 @@
                         <p class="mb-5">
                             Замена сайлетблока, ступичного подшипника, насоса ГУР, переднего рычага, ступицы в сборе.
                         </p>
-                        <button class="btn btn-secondary w-100">
+                        <button data-toggle="modal" data-target="#callbackModal" class="btn btn-secondary w-100">
                             <span>Записаться на прием</span>
                         </button>
                     </div>
@@ -319,7 +319,7 @@
                         <p class="mb-5">
                             Замена антифриза, масла, салонного фильтра, тормозной жидкости, свечей, масла АКПП/МКПП.
                         </p>
-                        <button class="btn btn-secondary w-100">
+                        <button data-toggle="modal" data-target="#callbackModal" class="btn btn-secondary w-100">
                             <span>Записаться на прием</span>
                         </button>
                     </div>
@@ -327,17 +327,17 @@
                 <div class="col-md-4">
                     <div class="service-card">
                         <p class="icon color-blue-secondary">
-                            <span class="icon-break"></span>
+                            <span class="icon-wash"></span>
                         </p>
                         <p class="color-blue-dark">
                             <span class="font-weight-bold text-uppercase">
-                                Тормозная система
+                                ПОЛИРОВКА, УХОД
                             </span>
                         </p>
                         <p class="mb-5">
-                            Комплексная диагностика, АКПП, кондиционеров, подвески, тормозной системы.
+                            Полировка детали/фар, антикоррозийная обработка днища, дезинфекция кондиционера.
                         </p>
-                        <button class="btn btn-secondary w-100">
+                        <button data-toggle="modal" data-target="#callbackModal" class="btn btn-secondary w-100">
                             <span>Записаться на прием</span>
                         </button>
                     </div>
@@ -345,17 +345,17 @@
                 <div class="col-md-4">
                     <div class="service-card">
                         <p class="icon color-blue-secondary">
-                            <span class="icon-battery"></span>
+                            <span class="icon-cogs"></span>
                         </p>
                         <p class="color-blue-dark">
                             <span class="font-weight-bold text-uppercase">
-                                Электрика
+                                ТЕХНИЧЕСКОЕ ОБСЛУЖИВАНИЕ
                             </span>
                         </p>
                         <p class="mb-5">
-                            Замена сайлетблока, ступичного подшипника, насоса ГУР, переднего рычага, ступицы в сборе.
+                            Базовое/полное ТО, замена помпы, ремней, роликов вспомогательных механизмов, ремня/цепи ГРМ.
                         </p>
-                        <button class="btn btn-secondary w-100">
+                        <button data-toggle="modal" data-target="#callbackModal" class="btn btn-secondary w-100">
                             <span>Записаться на прием</span>
                         </button>
                     </div>
@@ -363,17 +363,17 @@
                 <div class="col-md-4">
                     <div class="service-card">
                         <p class="icon color-blue-secondary">
-                            <span class="icon-oil"></span>
+                            <span class="icon-transmission"></span>
                         </p>
                         <p class="color-blue-dark">
                             <span class="font-weight-bold text-uppercase">
-                                Масло, Жидкости, Фильтры
+                                ТРАНСМИССИЯ
                             </span>
                         </p>
                         <p class="mb-5">
-                            Замена антифриза, масла, салонного фильтра, тормозной жидкости, свечей, масла АКПП/МКПП.
+                            Замена сцепления, ШРУСа, коробка передач, адаптация механизма выжима сцепления трансмиссии.
                         </p>
-                        <button class="btn btn-secondary w-100">
+                        <button data-toggle="modal" data-target="#callbackModal" class="btn btn-secondary w-100">
                             <span>Записаться на прием</span>
                         </button>
                     </div>
@@ -381,17 +381,17 @@
                 <div class="col-md-4">
                     <div class="service-card">
                         <p class="icon color-blue-secondary">
-                            <span class="icon-break"></span>
+                            <span class="icon-engine"></span>
                         </p>
                         <p class="color-blue-dark">
                             <span class="font-weight-bold text-uppercase">
-                                Тормозная система
+                                АГРЕГАТНЫЙ РЕМОНТ
                             </span>
                         </p>
                         <p class="mb-5">
-                            Комплексная диагностика, АКПП, кондиционеров, подвески, тормозной системы.
+                            Ремонт двигателя, коробки передач, раздаточной коробки, сложный ремонт коробки.
                         </p>
-                        <button class="btn btn-secondary w-100">
+                        <button data-toggle="modal" data-target="#callbackModal" class="btn btn-secondary w-100">
                             <span>Записаться на прием</span>
                         </button>
                     </div>
@@ -399,17 +399,17 @@
                 <div class="col-md-4">
                     <div class="service-card">
                         <p class="icon color-blue-secondary">
-                            <span class="icon-battery"></span>
+                            <span class="icon-tire"></span>
                         </p>
                         <p class="color-blue-dark">
                             <span class="font-weight-bold text-uppercase">
-                                Электрика
+                                ШИНОМОНТАЖ
                             </span>
                         </p>
                         <p class="mb-5">
-                            Замена сайлетблока, ступичного подшипника, насоса ГУР, переднего рычага, ступицы в сборе.
+                            Комплексный шиномонтаж, съем-установка колес.
                         </p>
-                        <button class="btn btn-secondary w-100">
+                        <button data-toggle="modal" data-target="#callbackModal" class="btn btn-secondary w-100">
                             <span>Записаться на прием</span>
                         </button>
                     </div>
@@ -417,17 +417,17 @@
                 <div class="col-md-4">
                     <div class="service-card">
                         <p class="icon color-blue-secondary">
-                            <span class="icon-oil"></span>
+                            <span class="icon-shine"></span>
                         </p>
                         <p class="color-blue-dark">
                             <span class="font-weight-bold text-uppercase">
-                                Масло, Жидкости, Фильтры
+                                ЗАЩИТНЫЕ ПЛЕНКИ, ТОНИРОВКА
                             </span>
                         </p>
                         <p class="mb-5">
-                            Замена антифриза, масла, салонного фильтра, тормозной жидкости, свечей, масла АКПП/МКПП.
+                            Защитные пленки, атермальная пленка, снятие тонировочной пленки, тонировка.
                         </p>
-                        <button class="btn btn-secondary w-100">
+                        <button data-toggle="modal" data-target="#callbackModal" class="btn btn-secondary w-100">
                             <span>Записаться на прием</span>
                         </button>
                     </div>
@@ -850,6 +850,38 @@
             </div>
         </div>
     </footer>
+    <div class="modal fade" id="callbackModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <div class="form-container mx-auto">
+                        <div class="top-line"></div>
+                        <h2 class="color-blue-dark font-weight-bold pb-5">
+                            <span class="text-uppercase">
+                                Закажите бесплатную консультацию с мастером
+                            </span>
+                        </h2>
+                        <form class="callbackForm">
+                            <div class="form-group">
+                                <input class="form-control form-control-gray" required="" type="text" name="name" placeholder="Имя">
+                            </div>
+                            <div class="form-group">
+                                <input required="" class="form-control form-control-gray" type="text" name="phone" placeholder="Телефон">
+                            </div>
+                            <div class="mt-5">
+                                <button class="btn btn-secondary w-100" type="submit">
+                                    <span class="ajax-status">Отправить</span>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- build:js -->
     <script src="assets/js/main.js"></script>
      <!-- endbuild -->

@@ -69,9 +69,12 @@
     @include expanded();
   }
 }
-.nav-link, .nav-link:hover {
+.nav-link {
   color: $white;
   transition: color 150ms;
+}
+.main-nav .nav-link:hover {
+  opacity: .8;
 }
 .navbar-expand-md > .container{
   padding-left: 20px;

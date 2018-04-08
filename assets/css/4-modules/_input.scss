@@ -5,6 +5,9 @@
   border: 1px solid $white;
   background: $white;
   border-radius: 0;
+  &.form-control-gray {
+    border: 1px solid $whitegray-default;
+  }
 }
 .form-group {
   margin: 20px 0 25px;
@@ -12,9 +15,13 @@
 .form-group input.no-valid {
   box-shadow: 0 0 3px 2px rgba(255, 0, 0, 0.5);
 }
-.form-control:disabled, .form-control[readonly] {
+.form-control:disabled {
   background-color: $white;
   opacity: 0.5;
   color: $gray-secondary;
   border: transparent;
+  &.form-control-gray {
+    background: $gray-secondary;
+    color: $gray-default;
+  }
 }

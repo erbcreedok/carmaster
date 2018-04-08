@@ -9759,6 +9759,8 @@ h4 {
   border: 1px solid #ffffff;
   background: #ffffff;
   border-radius: 0; }
+  .form-control.form-control-gray {
+    border: 1px solid #f1f1f1; }
 
 .form-group {
   margin: 20px 0 25px; }
@@ -9767,11 +9769,14 @@ h4 {
   -webkit-box-shadow: 0 0 3px 2px rgba(255, 0, 0, 0.5);
           box-shadow: 0 0 3px 2px rgba(255, 0, 0, 0.5); }
 
-.form-control:disabled, .form-control[readonly] {
+.form-control:disabled {
   background-color: #ffffff;
   opacity: 0.5;
   color: #ebebeb;
   border: transparent; }
+  .form-control:disabled.form-control-gray {
+    background: #ebebeb;
+    color: #686868; }
 
 .slick-dots {
   list-style-type: none;
@@ -9866,6 +9871,9 @@ div.im-colormask > div {
   width: 100px;
   /*calculated*/ }
 
+.modal-body {
+  padding: 4rem 3rem; }
+
 .container {
   max-width: 1160px;
   overflow: hidden; }
@@ -9936,10 +9944,13 @@ div.im-colormask > div {
     .navbar-toggler[aria-expanded=true] .navbar-toggler-icon:after {
       opacity: 0; }
 
-.nav-link, .nav-link:hover {
+.nav-link {
   color: #ffffff;
   -webkit-transition: color 150ms;
   transition: color 150ms; }
+
+.main-nav .nav-link:hover {
+  opacity: .8; }
 
 .navbar-expand-md > .container {
   padding-left: 20px;
@@ -10142,16 +10153,18 @@ div.im-colormask > div {
     overflow: visible; } }
 
 .fourth-section .col-md-4 {
-  margin-bottom: 1.5rem; }
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem; }
   @media (min-width: 768px) {
     .fourth-section .col-md-4 {
-      max-height: 255px; } }
+      max-height: 255px;
+      margin-top: 0; } }
 
 .fourth-section .service-card {
-  margin: 1.5rem -30px;
+  margin: 0 -30px;
   position: relative;
   z-index: 1;
-  padding: 40px 30px;
+  padding: 15px 30px;
   border: 1px solid transparent;
   background: transparent;
   -webkit-box-shadow: none;
@@ -10166,7 +10179,9 @@ div.im-colormask > div {
     display: none; }
   @media (min-width: 768px) {
     .fourth-section .service-card {
-      max-width: 360px; }
+      max-width: 360px;
+      padding: 40px 30px;
+      margin: 1.5rem -30px; }
       .fourth-section .service-card:hover, .fourth-section .service-card.hover {
         z-index: 2;
         border: 1px solid #29509f;

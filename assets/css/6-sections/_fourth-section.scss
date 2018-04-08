@@ -6,15 +6,17 @@
   }
   .col-md-4 {
     margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
     @include media-breakpoint-up(md) {
       max-height: 255px;
+      margin-top: 0;
     }
   }
   .service-card {
-    margin: 1.5rem -30px;
+    margin: 0 -30px;
     position: relative;
     z-index:1;
-    padding: 40px 30px;
+    padding: 15px 30px;
     border: 1px solid transparent;
     background: transparent;
     box-shadow: none;
@@ -27,6 +29,8 @@
     }
     @include media-breakpoint-up(md) {
       max-width: 360px;
+      padding: 40px 30px;
+      margin: 1.5rem -30px;
       &:hover, &.hover {
         z-index:2;
         border: 1px solid $blue-secondary;

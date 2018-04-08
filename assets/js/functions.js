@@ -12,7 +12,7 @@ $( document ).ready(function() {
 
     navbarCheck();
 
-    $('.navbar .main-nav li a').bind('click', function(e) {
+    $('.navbar .main-nav li a, a.slide-to').bind('click', function(e) {
         e.preventDefault();
         var id = $(this).attr('href');
         var elementOffset = document.querySelector(id).offsetTop;
@@ -164,6 +164,9 @@ $( document ).ready(function() {
         $.get(src, function() {
             console.log('send');
             $('.ajax-status').html('Отправлено <span class="icon-checkmark" style="display: inline-block;"></span>');
+            setTimeout(function () {
+                $('#callbackModal').modal('hide');
+            }, 2000);
         });
     };
 
