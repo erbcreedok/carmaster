@@ -14477,7 +14477,9 @@ $( document ).ready(function() {
         slidesToScroll: 1,
         infinite: false,
         arrows: false,
-        dots: true,
+        dots: (function(){
+            return $('.review-cards').children().length > 3;
+        })(),
         responsive: [{
             breakpoint: 767.99,
             settings: {
