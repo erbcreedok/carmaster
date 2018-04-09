@@ -2,8 +2,13 @@
   background: url($path-image + "/main.jpg") center;
   background-size: cover;
   color: $white;
-  min-height: 100vh;
   position: relative;
+  padding-top: 110px;
+  padding-bottom: 60px;
+  @include media-breakpoint-down(sm) {
+    padding-top: 10px;
+    padding-bottom: 50px;
+  }
   &:before {
     content: '';
     z-index: 0;

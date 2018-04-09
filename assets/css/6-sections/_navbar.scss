@@ -117,17 +117,29 @@
     background: $color;
   }
 }
+.hide-filled {
+  display: block;
+}
+.show-filled {
+  display: none;
+}
 @mixin filled-navbar() {
   background: $white;
-  color: $black;
+  color: $main-color;
   box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  .hide-filled {
+    display: none;
+  }
+  .show-filled {
+    display: block;
+  }
   .navbar-toggler-icon-line, .navbar-toggler-icon:after, .navbar-toggler-icon:before {
-    background-color: $black;
+    background-color:  $main-color;
   }
   @include media-breakpoint-down(sm) {
     background: $white;
     .nav-link, .nav-link:hover {
-      color: $black;
+      color: $main-color;
     }
   }
 }
@@ -135,7 +147,13 @@
 .navbar-filled, .expanded {
   @include filled-navbar;
 }
-
+.main-nav .nav-item {
+  opacity: .6;
+  &.active{
+    opacity: .8;
+    font-weight: bold;
+  }
+}
 @include media-breakpoint-down(sm) {
   .navbar {
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
@@ -151,11 +169,6 @@
   .main-nav .nav-item {
     position: relative;
     transition: opacity 150ms;
-    opacity: .4;
-    &.active{
-      opacity: .8;
-      font-weight: bold;
-    }
     &:hover{
       opacity: 1;
     }

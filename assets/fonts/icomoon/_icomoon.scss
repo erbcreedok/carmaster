@@ -13,6 +13,15 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-close:before {
+  content: "\e91a";
+}
+.icon-cheveron-left:before {
+  content: "\e91b";
+}
+.icon-cheveron-right:before {
+  content: "\e91c";
+}
 .icon-checkmark:before {
   content: "\ea11";
 }

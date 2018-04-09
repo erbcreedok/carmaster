@@ -1,0 +1,33 @@
+button.mfp-arrow {
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: $white;
+  font-size: 3rem;
+  &:before {
+    border: none;
+  }
+  &.mfp-arrow-left:before {
+    content: "\e91b";
+  }
+  &.mfp-arrow-right:before {
+    content: "\e91c";
+  }
+  &:after {
+    content: none;
+  }
+}
+.mfp-content {
+  margin: 0 25px;
+}
+button.mfp-close {
+  margin-right: -25px;
+  height: 50px;
+  line-height: 50px;
+}

@@ -21,15 +21,16 @@
     <nav class="navbar navbar-expand-md fixed-top">
       <div class="container">
        <a class="navbar-brand" href=".">
-           <span class="icon-logo" style="font-size: 3rem"></span>
+           <span class="icon-logo hide-filled" style="font-size: 3rem"></span>
+           <img class="show-filled" src="assets/img/logo.svg" height="31.5px" alt="">
        </a>
-       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation" onclick="toggleClass('nav.navbar','expanded')">
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavbar" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation" onclick="toggleClass('nav.navbar','expanded')">
          <span class="navbar-toggler-icon">
              <span class="navbar-toggler-icon-line"></span>
          </span>
        </button>
 
-       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+       <div class="collapse navbar-collapse"  id="mainNavbar">
          <ul class="navbar-nav main-nav ml-auto justify-content-around">
            <li class="nav-item active">
              <a class="nav-link" href="#main">Главная <span class="sr-only">(current)</span></a>
@@ -118,7 +119,7 @@
                 </div>
                 <div class="my-5 digit-container d-flex flex-nowrap">
                     <p class="digit">
-                        3925
+                        3 925
                     </p>
                     <p>
                         довольных<br/>клиентов
@@ -829,7 +830,9 @@
             <div class="modal-content">
                 <div class="modal-body">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
+                        <span aria-hidden="true">
+                            <span class="icon-close"></span>
+                        </span>
                     </button>
                     <div class="form-container mx-auto">
                         <div class="top-line"></div>
@@ -859,7 +862,9 @@
             <div class="modal-content">
                 <div class="modal-body">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
+                        <span aria-hidden="true">
+                            <span class="icon-close"></span>
+                        </span>
                     </button>
                     <div class="thanks-container mx-auto">
                         <div class="">

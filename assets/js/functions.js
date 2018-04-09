@@ -25,6 +25,12 @@ $( document ).ready(function() {
         navbarCheck();
     });
 
+    $('.navbar .main-nav li a').on('click', function(e) {
+        setTimeout(function() {
+            $("#mainNavbar").collapse('hide');
+        }, 300);
+    });
+
     var checkWaypoint = function(waypoint) {
         if (!waypoint.element.dataset.waypoint) return;
         var hash = waypoint.element.dataset.waypoint;
@@ -218,7 +224,7 @@ $( document ).ready(function() {
     });
 
     $('.photos-container').magnificPopup({
-        delegate: 'a.photo-card',
+        delegate: 'a.photo-card:not(.slick-cloned)',
         type: 'image',
         tLoading: 'Загрузка изображения #%curr%...',
         gallery: {
@@ -258,5 +264,8 @@ $( document ).ready(function() {
            item.style.display = 'block';
         });
         this.style.display = 'none';
+        var slider = $('.review-cards');
+        var currentSlide = slider.slick('slickCurrentSlide');
+        slider.slick('slickGoTo', currentSlide);
     });
 });

@@ -20,10 +20,14 @@
       @extend .align-items-center;
     }
     @include media-breakpoint-down(sm) {
-      overflow: scroll;
       .partner {
         padding: 2rem 1rem;
       }
+    }
+    .slick-dots {
+      bottom: -15px;
+      margin: 0;
+      padding: 0;
     }
   }
 }
