@@ -2,30 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbfc174c-e145-44dd-b001-ceba0cf5c3d2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/4-modules/_magnific.scss" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/icons/arrow.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/icons/clock.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/icons/directions.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/icons/email.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/icons/facebook.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/icons/gmail.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/icons/instagram.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/icons/mission.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/icons/planning.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/icons/smartphone-call-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/icons/smartphone-call.svg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/fonts/icomoon/icomoon.eot" afterPath="$PROJECT_DIR$/assets/fonts/icomoon/icomoon.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/fonts/icomoon/icomoon.woff" afterPath="$PROJECT_DIR$/assets/fonts/icomoon/icomoon.woff" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/4-modules/_index.scss" afterPath="$PROJECT_DIR$/assets/css/4-modules/_index.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/6-sections/_first-section.scss" afterPath="$PROJECT_DIR$/assets/css/6-sections/_first-section.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/6-sections/_navbar.scss" afterPath="$PROJECT_DIR$/assets/css/6-sections/_navbar.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/6-sections/_seventh-section.scss" afterPath="$PROJECT_DIR$/assets/css/6-sections/_seventh-section.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/6-sections/_tenth-section.scss" afterPath="$PROJECT_DIR$/assets/css/6-sections/_tenth-section.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/6-sections/_ninth-section.scss" afterPath="$PROJECT_DIR$/assets/css/6-sections/_ninth-section.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/main.css" afterPath="$PROJECT_DIR$/assets/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/fonts/icomoon/_icomoon.scss" afterPath="$PROJECT_DIR$/assets/fonts/icomoon/_icomoon.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/fonts/icomoon/icomoon.svg" afterPath="$PROJECT_DIR$/assets/fonts/icomoon/icomoon.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/fonts/icomoon/icomoon.ttf" afterPath="$PROJECT_DIR$/assets/fonts/icomoon/icomoon.ttf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/functions.js" afterPath="$PROJECT_DIR$/assets/js/functions.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/main.js" afterPath="$PROJECT_DIR$/assets/js/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
@@ -46,8 +25,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-120">
-              <caret line="834" column="31" lean-forward="false" selection-start-line="834" selection-start-column="31" selection-end-line="834" selection-end-column="31" />
+            <state relative-caret-position="90">
+              <caret line="716" column="20" lean-forward="false" selection-start-line="726" selection-start-column="65" selection-end-line="726" selection-end-column="77" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#a#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -58,16 +37,17 @@
                 <element signature="n#section#9;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#section#10;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_first-section.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/css/6-sections/_first-section.scss">
+      <file leaf-file-name="_ninth-section.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/css/6-sections/_ninth-section.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-24">
-              <caret line="23" column="14" lean-forward="true" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+            <state relative-caret-position="105">
+              <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -86,17 +66,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_tenth-section.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/css/6-sections/_tenth-section.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="16" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_magnific.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_magnific.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/css/4-modules/_magnific.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="465">
@@ -106,25 +76,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="functions.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="functions.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/js/functions.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="38" lean-forward="true" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+            <state relative-caret-position="246">
+              <caret line="181" column="56" lean-forward="false" selection-start-line="181" selection-start-column="56" selection-end-line="181" selection-end-column="56" />
               <folding>
-                <marker date="1523311884000" expanded="true" signature="5026:5048" ph="..." />
-                <marker date="1523311884000" expanded="true" signature="5306:5328" ph="..." />
+                <marker date="1523314124000" expanded="true" signature="5026:5048" ph="..." />
+                <marker date="1523314124000" expanded="true" signature="5306:5328" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="nav.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../TechVision/assets/js/functions/nav.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="18" selection-end-column="3" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -196,16 +156,16 @@
         <option value="$PROJECT_DIR$/assets/css/6-sections/_sixth-section.scss" />
         <option value="$PROJECT_DIR$/assets/css/5-layout/_containers.scss" />
         <option value="$PROJECT_DIR$/assets/css/6-sections/_fourth-section.scss" />
-        <option value="$PROJECT_DIR$/assets/css/6-sections/_ninth-section.scss" />
         <option value="$PROJECT_DIR$/assets/css/6-sections/_tenth-section.scss" />
         <option value="$PROJECT_DIR$/assets/fonts/icomoon/_icomoon.scss" />
         <option value="$PROJECT_DIR$/assets/css/4-modules/_index.scss" />
         <option value="$PROJECT_DIR$/assets/css/6-sections/_seventh-section.scss" />
         <option value="$PROJECT_DIR$/assets/css/6-sections/_first-section.scss" />
         <option value="$PROJECT_DIR$/assets/css/6-sections/_navbar.scss" />
-        <option value="$PROJECT_DIR$/assets/js/functions.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/assets/css/4-modules/_magnific.scss" />
+        <option value="$PROJECT_DIR$/assets/css/6-sections/_ninth-section.scss" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/assets/js/functions.js" />
       </list>
     </option>
   </component>
@@ -542,12 +502,12 @@
       <workItem from="1522904243340" duration="73000" />
       <workItem from="1522911379215" duration="12000" />
       <workItem from="1523299046574" duration="664000" />
-      <workItem from="1523300314118" duration="7352000" />
+      <workItem from="1523300314118" duration="8389000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99143000" />
+    <option name="totallyTimeSpent" value="100180000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -796,18 +756,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/6-sections/_ninth-section.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/6-sections/_tenth-section.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="22" column="16" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+          <caret line="22" column="16" lean-forward="false" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
           <folding />
         </state>
       </provider>
@@ -863,7 +815,7 @@
     <entry file="file://$PROJECT_DIR$/assets/css/6-sections/_first-section.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-24">
-          <caret line="23" column="14" lean-forward="true" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+          <caret line="23" column="14" lean-forward="false" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
           <folding />
         </state>
       </provider>
@@ -911,29 +863,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../TechVision/assets/js/functions/nav.js">
+    <entry file="file://$PROJECT_DIR$/assets/css/4-modules/_magnific.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="18" selection-end-column="3" />
+        <state relative-caret-position="465">
+          <caret line="31" column="20" lean-forward="false" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/functions.js">
+    <entry file="file://$PROJECT_DIR$/assets/css/6-sections/_ninth-section.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="38" lean-forward="true" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
-          <folding>
-            <marker date="1523311884000" expanded="true" signature="5026:5048" ph="..." />
-            <marker date="1523311884000" expanded="true" signature="5306:5328" ph="..." />
-          </folding>
+        <state relative-caret-position="105">
+          <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-120">
-          <caret line="834" column="31" lean-forward="false" selection-start-line="834" selection-start-column="31" selection-end-line="834" selection-end-column="31" />
+        <state relative-caret-position="90">
+          <caret line="716" column="20" lean-forward="false" selection-start-line="726" selection-start-column="65" selection-end-line="726" selection-end-column="77" />
           <folding>
             <element signature="n#style#0;n#span#0;n#a#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -944,15 +893,27 @@
             <element signature="n#section#9;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#10;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/4-modules/_magnific.scss">
+    <entry file="file://$PROJECT_DIR$/../TechVision/assets/js/functions/nav.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="20" lean-forward="false" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+        <state relative-caret-position="210">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="18" selection-end-column="3" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/functions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="181" column="56" lean-forward="false" selection-start-line="181" selection-start-column="56" selection-end-line="181" selection-end-column="56" />
+          <folding>
+            <marker date="1523314124000" expanded="true" signature="5026:5048" ph="..." />
+            <marker date="1523314124000" expanded="true" signature="5306:5328" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

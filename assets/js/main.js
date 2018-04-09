@@ -14574,6 +14574,10 @@ $( document ).ready(function() {
             $('.ajax-status').html('Отправлено <span class="icon-checkmark" style="display: inline-block;"></span>');
             setTimeout(function () {
                 $('.form-fade-out').fadeOut(function () {
+                    $(form).attr('disabled', false);
+                    $(form.elements).attr('disabled', false);
+                    $(form.elements).val('');
+                    $('.ajax-status').html('Отправить');
                     $('.thanks-fade-in').fadeIn(function () {
                         setTimeout(function () {
                             $('#callbackModal').modal('hide');
@@ -14584,6 +14588,12 @@ $( document ).ready(function() {
 
         });
     };
+
+    $('.form-go-back').click(function() {
+        $('.thanks-fade-in').fadeOut(function () {
+            $('.form-fade-out').fadeIn();
+        });
+    });
 
     var services = {
         serviceList: $('.service-list'),
