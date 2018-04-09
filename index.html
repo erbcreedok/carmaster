@@ -692,7 +692,7 @@
             <div class="row">
                 <div class="col-md-6 fluid-image"></div>
                 <div class="col-md-6 semi-container pad-this-2y">
-                    <div class="form-container mx-auto">
+                    <div class="form-container mx-auto form-fade-out">
                         <div class="top-line"></div>
                         <h2 class="color-blue-dark font-weight-bold pb-5">
                             <span class="text-uppercase">
@@ -712,6 +712,17 @@
                                 </button>
                             </div>
                         </form>
+                    </div>
+                    <div class="thanks-container mx-auto thanks-fade-in" style="display: none">
+                        <div class="">
+                            <div class="top-line"></div>
+                            <h2 class="mb-4">
+                                Спасибо, <span class="user-name-here">Уважаемый Гость</span>!
+                            </h2>
+                            <p>
+                                Заявка на бесплатную консультацию принята.<br>Мы вам скоро перезвоним.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -754,8 +765,9 @@
             DG.then(function() {
                 var map, myDivIcon;
 
+                var isMobile = function() { return window.innerWidth < 768; };
                 map = DG.map('map', {
-                    center: [54.99, 82.85],
+                    center: isMobile() ? [54.99, 82.87] :[54.99, 82.85],
                     zoom: 13
                 });
 
@@ -813,7 +825,7 @@
         </div>
     </footer>
     <div class="modal fade" id="callbackModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-dialog modal-dialog-centered form-fade-out" role="document">
             <div class="modal-content">
                 <div class="modal-body">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -839,6 +851,26 @@
                                 </button>
                             </div>
                         </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal-dialog modal-dialog-centered thanks-fade-in" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <div class="thanks-container mx-auto">
+                        <div class="">
+                            <div class="top-line"></div>
+                            <h2 class="mb-4">
+                                Спасибо, <span class="user-name-here">Уважаемый Гость</span>!
+                            </h2>
+                            <p>
+                                Заявка на бесплатную консультацию принята.<br>Мы вам скоро перезвоним.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>

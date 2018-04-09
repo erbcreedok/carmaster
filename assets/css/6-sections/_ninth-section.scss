@@ -1,7 +1,11 @@
 .ninth-section {
   position: relative;
-  .form-container {
+  .form-container, .thanks-container {
     max-width: 380px;
+  }
+  .thanks-container {
+    padding-top: 100px;
+    padding-bottom: 95px;
   }
   .fluid-image {
     display: block;

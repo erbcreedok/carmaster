@@ -14526,7 +14526,7 @@ $( document ).ready(function() {
         }]
     });
 
-    $('input[name="phone"]').inputmask("+9 (999) 999 99 99");
+    $('input[name="phone"]').inputmask("+7 (799) 999 99 99");
 
     $('.callbackForm').submit(function(e) {
         e.preventDefault();
@@ -14535,13 +14535,15 @@ $( document ).ready(function() {
         var name = nameElement.value.trim();
         var phone = phoneElement.value.trim();
         var valid = true;
-        if (name === '') {
+        var nameRegex = /^[a-zA-Zа-яА-Я][^#&<>\"~;$^%{}?]{1,30}$/;
+        if (!nameRegex.test(name)) {
             nameElement.classList.add('no-valid');
             valid = false;
         } else {
             nameElement.classList.remove('no-valid');
         }
-        if (phone.indexOf('_') !== -1) {
+        var phoneRegex = /^\+7 \((700|701|702|705|707|708|711|712|713|714|715|717|718|721|722|723|724|725|726|727|747|750|751|760|761|762|763|764|771|775|776|777|778)\) [0-9]{3} [0-9]{2} [0-9]{2}$/;
+        if (!phoneRegex.test(phone)) {
             phoneElement.classList.add('no-valid');
             valid = false;
         } else {
@@ -14561,12 +14563,19 @@ $( document ).ready(function() {
         $('.ajax-status').html('Отправляем <span class="icon-spinner spin-me" style="display: inline-block;"></span>');
         $(form).attr('disabled', true);
         $(form.elements).attr('disabled', true);
+        $('.user-name-here').html(name);
         $.get(src, function() {
-            console.log('send');
             $('.ajax-status').html('Отправлено <span class="icon-checkmark" style="display: inline-block;"></span>');
             setTimeout(function () {
-                $('#callbackModal').modal('hide');
-            }, 2000);
+                $('.form-fade-out').fadeOut(function () {
+                    $('.thanks-fade-in').fadeIn(function () {
+                        setTimeout(function () {
+                            $('#callbackModal').modal('hide');
+                        }, 3500);
+                    })
+                });
+            }, 300)
+
         });
     };
 

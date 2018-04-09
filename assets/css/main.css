@@ -10292,8 +10292,11 @@ div.im-colormask > div {
 
 .ninth-section {
   position: relative; }
-  .ninth-section .form-container {
+  .ninth-section .form-container, .ninth-section .thanks-container {
     max-width: 380px; }
+  .ninth-section .thanks-container {
+    padding-top: 100px;
+    padding-bottom: 95px; }
   .ninth-section .fluid-image {
     display: block;
     background: url("../img/CTA.jpg") center;
