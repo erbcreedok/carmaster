@@ -10147,10 +10147,11 @@ button.mfp-close {
   margin-bottom: 0; }
 
 .second-section .digit-container {
+  border-left: 1px solid #ebebeb;
   padding: 0 1.5rem; }
-  @media (min-width: 768px) {
+  @media (max-width: 767.98px) {
     .second-section .digit-container {
-      border-left: 1px solid #ebebeb; } }
+      margin-left: 1rem; } }
 
 .second-section .digit {
   color: #2c50b1;
