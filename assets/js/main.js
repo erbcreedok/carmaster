@@ -14644,7 +14644,8 @@ $( document ).ready(function() {
         gallery: {
             enabled: true,
             navigateByImgClick: true,
-            preload: [0, 1] // Will preload 0 - before current, and 1 after the current image
+            preload: [0, 1], // Will preload 0 - before current, and 1 after the current image
+            tCounter: '<span class="mfp-counter">%curr% из %total%</span>'
         }
     });
 
@@ -14654,7 +14655,7 @@ $( document ).ready(function() {
         var parent = this.parentNode;
         imageHref.setAttribute('href',src);
         imageHref.setAttribute('target', '_blank');
-        imageHref.setAttribute('title','Фото');
+        imageHref.setAttribute('title', $(this).attr('title'));
         imageHref.classList.add('image-popup-zoom', 'image-hidden');
         imageHref.style.display = 'none';
         imageHref.appendChild(this);

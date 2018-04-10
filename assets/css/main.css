@@ -9884,7 +9884,13 @@ div.im-colormask > div {
   /*calculated*/ }
 
 .modal-body {
-  padding: 4rem 3rem; }
+  padding: 4rem 3rem;
+  position: relative; }
+
+button.close {
+  position: absolute;
+  top: 15px;
+  right: 15px; }
 
 button.mfp-arrow {
   font-family: 'icomoon' !important;
