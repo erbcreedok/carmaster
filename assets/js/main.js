@@ -14568,6 +14568,7 @@ $( document ).ready(function() {
         message += '\n    <i> Телефон: </i> ' + phone;
         message = encodeURIComponent(message);
         var src = 'https://api.telegram.org/bot' + Globals.botApi + '/sendMessage?chat_id=' + Globals.chatId + '&parse_mode=html&text=' + message;
+        var srcMail = 'http://carmaster.kz/sendmail.php';
         $('.ajax-status').html('Отправляем <span class="icon-spinner spin-me" style="display: inline-block;"></span>');
         $(form).attr('disabled', true);
         $(form.elements).attr('disabled', true);
@@ -14592,6 +14593,9 @@ $( document ).ready(function() {
                 });
             }, 300)
 
+        });
+        $.post(srcMail, {subject: 'Заявка от ' + name, message: message}, function (response) {
+            console.log(response);
         });
     };
 
