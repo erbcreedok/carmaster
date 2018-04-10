@@ -14578,6 +14578,7 @@ $( document ).ready(function() {
                     $(form.elements).attr('disabled', false);
                     $(form.elements).val('');
                     $('.ajax-status').html('Отправить');
+                    $('#callbackModal').modal('show');
                     $('.thanks-fade-in').fadeIn(function () {
                         setTimeout(function () {
                             $('#callbackModal').modal('hide');
