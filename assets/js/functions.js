@@ -16,9 +16,11 @@ $( document ).ready(function() {
         e.preventDefault();
         var id = $(this).attr('href');
         var elementOffset = document.querySelector(id).offsetTop;
+        var diff = Math.abs(document.querySelector('html').scrollTop - elementOffset) / 2;
+        console.log(diff);
         $('html, body').animate({
             scrollTop: elementOffset - 10
-        }, '1000');
+        }, diff < 600 ? 600 : diff);
     });
 
     $(document).scroll(function() {
