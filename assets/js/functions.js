@@ -184,6 +184,9 @@ $( document ).ready(function() {
                     $('.thanks-fade-in').fadeIn(function () {
                         setTimeout(function () {
                             $('#callbackModal').modal('hide');
+                            $('.thanks-fade-in').fadeOut(function () {
+                                $('.form-fade-out').fadeIn();
+                            });
                         }, 3500);
                     })
                 });
