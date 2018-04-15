@@ -8,7 +8,7 @@ $( document ).ready(function() {
 
     var navbarCheck = function() {
         nav.toggleClass('navbar-filled', window.scrollY > 0);
-    }
+    };
 
     navbarCheck();
 
@@ -17,7 +17,6 @@ $( document ).ready(function() {
         var id = $(this).attr('href');
         var elementOffset = document.querySelector(id).offsetTop;
         var diff = Math.abs(document.querySelector('html').scrollTop - elementOffset) / 2;
-        console.log(diff);
         $('html, body').animate({
             scrollTop: elementOffset - 10
         }, diff < 600 ? 600 : diff);
@@ -169,13 +168,14 @@ $( document ).ready(function() {
         var message = '💡Новая заявка от ' + name;
         message += '\n    <i> Телефон: </i> ' + phone;
         message = encodeURIComponent(message);
+        var subject = encodeURIComponent('Заявка от ' + name);
         var src = 'https://api.telegram.org/bot' + Globals.botApi + '/sendMessage?chat_id=' + Globals.chatId + '&parse_mode=html&text=' + message;
-        var srcMail = 'http://carmaster.kz/sendmail.php';
+        var srcMail = 'http://carmaster.kz/sendmail.php?subject=' + subject + '&message='+ message;
         $('.ajax-status').html('Отправляем <span class="icon-spinner spin-me" style="display: inline-block;"></span>');
         $(form).attr('disabled', true);
         $(form.elements).attr('disabled', true);
         $('.user-name-here').html(name);
-        $.get(src, function() {
+        function onMailSend() {
             $('.ajax-status').html('Отправлено <span class="icon-checkmark" style="display: inline-block;"></span>');
             setTimeout(function () {
                 $('.form-fade-out').fadeOut(function () {
@@ -193,11 +193,15 @@ $( document ).ready(function() {
                         }, 3500);
                     })
                 });
-            }, 300)
-
+            }, 300);
+        }
+        $.get(src, function() {
+            onMailSend();
         });
-        $.post(srcMail, {subject: 'Заявка от ' + name, message: message}, function (response) {
-            console.log(response);
+        console.log('sending', srcMail);
+        $.get(srcMail, function (response) {
+            console.log('sent', srcMail, response);
+            onMailSend();
         });
     };
 
