@@ -14591,7 +14591,7 @@ $( document ).ready(function() {
                         }, 3500);
                     })
                 });
-            }, 300)
+            }, 300);
         }
         $.get(src, function() {
             onMailSend();
